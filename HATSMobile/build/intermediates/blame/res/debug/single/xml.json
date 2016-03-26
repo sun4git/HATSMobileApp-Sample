@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\SUNEEL\\AndroidDevelopment\\AndroidStudioProjects\\HATSMobileApp\\HATSMobile\\build\\intermediates\\res\\merged\\debug\\xml\\pref_headers.xml",
+        "source": "E:\\SUNEEL\\AndroidDevelopment\\AndroidStudioProjects\\HATSMobileApp\\HATSMobile\\src\\main\\res\\xml\\pref_headers.xml"
+    },
+    {
+        "merged": "E:\\SUNEEL\\AndroidDevelopment\\AndroidStudioProjects\\HATSMobileApp\\HATSMobile\\build\\intermediates\\res\\merged\\debug\\xml\\pref_color_remap.xml",
+        "source": "E:\\SUNEEL\\AndroidDevelopment\\AndroidStudioProjects\\HATSMobileApp\\HATSMobile\\src\\main\\res\\xml\\pref_color_remap.xml"
+    },
+    {
+        "merged": "E:\\SUNEEL\\AndroidDevelopment\\AndroidStudioProjects\\HATSMobileApp\\HATSMobile\\build\\intermediates\\res\\merged\\debug\\xml\\pref_general.xml",
+        "source": "E:\\SUNEEL\\AndroidDevelopment\\AndroidStudioProjects\\HATSMobileApp\\HATSMobile\\src\\main\\res\\xml\\pref_general.xml"
+    }
+]

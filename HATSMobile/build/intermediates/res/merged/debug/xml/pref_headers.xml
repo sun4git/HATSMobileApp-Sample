@@ -1,0 +1,14 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="eg.csk.hatsmobileapp.HATSSettings$GeneralPreferenceFragment"
+        android:title="@string/pref_header_hats_server_settings" 
+        android:summary="@string/pref_header_summary_hats_server_settings" />
+   <header
+        android:fragment="eg.csk.hatsmobileapp.HATSSettings$ColorRemapPreferenceFragment"
+        android:title="@string/pref_header_hats_color_settings" 
+        android:summary="@string/pref_header_summary_hats_color_settings"/>
+
+</preference-headers>

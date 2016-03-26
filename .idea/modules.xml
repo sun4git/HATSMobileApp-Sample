@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/HATSMobile/HATSMobile.iml" filepath="$PROJECT_DIR$/HATSMobile/HATSMobile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HATSMobileApp.iml" filepath="$PROJECT_DIR$/HATSMobileApp.iml" />
+    </modules>
+  </component>
+</project>

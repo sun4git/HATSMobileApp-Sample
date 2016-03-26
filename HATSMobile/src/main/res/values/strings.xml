@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HATS - Sample App</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_disconnect">Disconnect</string>
+    <string name="action_show_keypad">Host Keypad</string>
+    <string name="action_hide_keypad">Hide Keypad</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="loading">Loading</string>
+    <string name="keypad_button_text">SUBMIT</string>
+
+    <string name="start_app_text">Starting the application</string>
+    <string name="restart_app_text">Restarting the application with modified settings</string>
+
+    <string name="disconnect_title">Disconnected</string>
+    <string name="connection_ended_text">Connection to the host system has ended</string>
+    <string name="restart_conn_text">Restarting the connection</string>
+
+    <string name="restart_button_text">RESTART</string>
+    <string name="close_button_text">CLOSE</string>
+    <string name="settings_button_text">SETTINGS</string>
+    <string name="ok_button_text">OK</string>
+    <string name="yes_button_text">YES</string>
+    <string name="no_button_text">NO</string>
+
+    <string name="network_error_title">Network Error</string>
+    <string name="network_error_text">Please verify your network settings and start the application again</string>
+
+    <string name="network_error_2_text">Network error occurred and connection to the host system has ended</string>
+    <string name="error_code_text">Error code : </string>
+
+    <string name="app_error_title">Application Error</string>
+    <string name="app_error_text">An error occurred accessing the application. You can verify the SETTINGS or CLOSE the application</string>
+
+    <string name="close_app_title">Close App</string>
+    <string name="close_app_text">Are you sure you want to close the application?</string>
+
+    <string name="browser_find_restart_text">you may restart the application by clicking restart.</string>
+    <string name="browser_find_error_text">internal server error</string>
+
+    <string-array name="host_keypad_items">
+        <item>PF1</item>
+        <item>PF2</item>
+        <item>PF3</item>
+        <item>PF4</item>
+        <item>PF5</item>
+        <item>PF6</item>
+        <item>PF7</item>
+        <item>PF8</item>
+        <item>PF9</item>
+        <item>PF10</item>
+        <item>PF11</item>
+        <item>PF12</item>
+        <item>PF13</item>
+        <item>PF14</item>
+        <item>PF15</item>
+        <item>PF16</item>
+        <item>PF17</item>
+        <item>PF18</item>
+        <item>PF19</item>
+        <item>PF20</item>
+        <item>PF21</item>
+        <item>PF22</item>
+        <item>PF23</item>
+        <item>PF24</item>
+        <item>ENTER</item>
+        <item>CLEAR</item>
+        <item>SYSREQ</item>
+        <item>ATTN</item>
+        <item>PAGEUP</item>
+        <item>PAGEDN</item>
+        <item>HELP</item>
+        <item>PRINT</item>
+        <item>PA1</item>
+        <item>PA2</item>
+        <item>PA3</item>
+        <item>AltView</item>
+        <item>Reset</item>
+        <item>Field exit</item>
+        <item>Field plus</item>
+        <item>Field minus</item>
+    </string-array>
+</resources>

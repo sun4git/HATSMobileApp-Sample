@@ -1,0 +1,200 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+     <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="enable_color_remap"
+        android:title="@string/pref_title_enable_color_remap"
+        android:summary="@string/pref_description_enable_color_remap" />
+    
+        <ListPreference
+        android:dependency="enable_color_remap"
+        android:defaultValue="0"
+        android:entries="@array/pref_screen_background_list_titles"
+        android:entryValues="@array/pref_screen_background_list_values"
+        android:key="screen_background"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_screen_background" />
+        
+     <PreferenceCategory android:title="@string/pref_title_green_field">
+        <ListPreference
+        android:dependency="enable_color_remap"
+        android:defaultValue="0"
+        android:entries="@array/pref_field_background_list_titles"
+        android:entryValues="@array/pref_field_background_list_values"
+        android:key="green_field_background"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_background_color" />
+        
+        <ListPreference
+        android:dependency="enable_color_remap"
+        android:defaultValue="0"
+        android:entries="@array/pref_field_foreground_list_titles"
+        android:entryValues="@array/pref_field_foreground_list_values"
+        android:key="green_field_foreground"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_foreground_color" />
+       </PreferenceCategory>
+       
+     
+     <PreferenceCategory android:title="@string/pref_title_white_field">
+      <ListPreference
+        android:dependency="enable_color_remap"
+        android:defaultValue="0"
+        android:entries="@array/pref_field_background_list_titles"
+        android:entryValues="@array/pref_field_background_list_values"
+        android:key="white_field_background"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_background_color" />
+      
+        <ListPreference
+        android:dependency="enable_color_remap"
+        android:defaultValue="0"
+        android:entries="@array/pref_field_foreground_list_titles"
+        android:entryValues="@array/pref_field_foreground_list_values"
+        android:key="white_field_foreground"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_foreground_color" />
+      </PreferenceCategory>
+      
+     <PreferenceCategory android:title="@string/pref_title_red_field">
+        <ListPreference
+        android:dependency="enable_color_remap"
+        android:defaultValue="0"
+        android:entries="@array/pref_field_background_list_titles"
+        android:entryValues="@array/pref_field_background_list_values"
+        android:key="red_field_background"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_background_color" />
+        
+        <ListPreference
+        android:dependency="enable_color_remap"
+        android:defaultValue="0"
+        android:entries="@array/pref_field_foreground_list_titles"
+        android:entryValues="@array/pref_field_foreground_list_values"
+        android:key="red_field_foreground"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_foreground_color" />
+       </PreferenceCategory>
+        
+     
+     <PreferenceCategory android:title="@string/pref_title_cyan_field">
+        <ListPreference
+        android:dependency="enable_color_remap"
+        android:defaultValue="0"
+        android:entries="@array/pref_field_background_list_titles"
+        android:entryValues="@array/pref_field_background_list_values"
+        android:key="cyan_field_background"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_background_color" />
+        
+        <ListPreference
+        android:dependency="enable_color_remap"
+        android:defaultValue="0"
+        android:entries="@array/pref_field_foreground_list_titles"
+        android:entryValues="@array/pref_field_foreground_list_values"
+        android:key="cyan_field_foreground"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_foreground_color" />
+      </PreferenceCategory>
+        
+     <PreferenceCategory android:title="@string/pref_title_magenta_field">
+        <ListPreference
+        android:dependency="enable_color_remap"
+        android:defaultValue="0"
+        android:entries="@array/pref_field_background_list_titles"
+        android:entryValues="@array/pref_field_background_list_values"
+        android:key="magenta_field_background"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_background_color" />
+        
+        <ListPreference
+        android:dependency="enable_color_remap"
+        android:defaultValue="0"
+        android:entries="@array/pref_field_foreground_list_titles"
+        android:entryValues="@array/pref_field_foreground_list_values"
+        android:key="magenta_field_foreground"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_foreground_color" />
+      </PreferenceCategory>
+           
+        
+      <PreferenceCategory android:title="@string/pref_title_yellow_field">  
+        <ListPreference
+        android:dependency="enable_color_remap"
+        android:defaultValue="0"
+        android:entries="@array/pref_field_background_list_titles"
+        android:entryValues="@array/pref_field_background_list_values"
+        android:key="yellow_field_background"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_background_color" />
+        
+        <ListPreference
+        android:dependency="enable_color_remap"
+        android:defaultValue="0"
+        android:entries="@array/pref_field_foreground_list_titles"
+        android:entryValues="@array/pref_field_foreground_list_values"
+        android:key="yellow_field_foreground"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_foreground_color" />
+      </PreferenceCategory>
+      
+      <PreferenceCategory android:title="@string/pref_title_pink_field">
+        
+        <ListPreference
+        android:dependency="enable_color_remap"
+        android:defaultValue="0"
+        android:entries="@array/pref_field_background_list_titles"
+        android:entryValues="@array/pref_field_background_list_values"
+        android:key="pink_field_background"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_background_color" />
+        
+        <ListPreference
+        android:dependency="enable_color_remap"
+        android:defaultValue="0"
+        android:entries="@array/pref_field_foreground_list_titles"
+        android:entryValues="@array/pref_field_foreground_list_values"
+        android:key="pink_field_foreground"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_foreground_color" />
+      </PreferenceCategory> 
+      
+     <PreferenceCategory android:title="@string/pref_title_blue_field"> 
+        <ListPreference
+        android:dependency="enable_color_remap"
+        android:defaultValue="0"
+        android:entries="@array/pref_field_background_list_titles"
+        android:entryValues="@array/pref_field_background_list_values"
+        android:key="blue_field_background"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_background_color" />
+        
+        <ListPreference
+        android:dependency="enable_color_remap"
+        android:defaultValue="0"
+        android:entries="@array/pref_field_foreground_list_titles"
+        android:entryValues="@array/pref_field_foreground_list_values"
+        android:key="blue_field_foreground"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_foreground_color" />
+        
+     </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\SUNEEL\\AndroidDevelopment\\AndroidStudioProjects\\HATSMobileApp\\HATSMobile\\build\\intermediates\\res\\merged\\release\\drawable\\custom_button.xml",
+        "source": "E:\\SUNEEL\\AndroidDevelopment\\AndroidStudioProjects\\HATSMobileApp\\HATSMobile\\src\\main\\res\\drawable\\custom_button.xml"
+    },
+    {
+        "merged": "E:\\SUNEEL\\AndroidDevelopment\\AndroidStudioProjects\\HATSMobileApp\\HATSMobile\\build\\intermediates\\res\\merged\\release\\drawable\\logo.png",
+        "source": "E:\\SUNEEL\\AndroidDevelopment\\AndroidStudioProjects\\HATSMobileApp\\HATSMobile\\src\\main\\res\\drawable\\logo.png"
+    },
+    {
+        "merged": "E:\\SUNEEL\\AndroidDevelopment\\AndroidStudioProjects\\HATSMobileApp\\HATSMobile\\build\\intermediates\\res\\merged\\release\\drawable\\spinner_selector.xml",
+        "source": "E:\\SUNEEL\\AndroidDevelopment\\AndroidStudioProjects\\HATSMobileApp\\HATSMobile\\src\\main\\res\\drawable\\spinner_selector.xml"
+    }
+]

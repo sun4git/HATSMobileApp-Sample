@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="eg.csk.hatsmobileapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+ <!-- for network access -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- to check network state -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="eg.csk.hatsmobileapp.HATSSplashScreen"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+
+            <!-- android:screenOrientation="landscape" -->
+            <!-- android:screenOrientation="portrait" -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="eg.csk.hatsmobileapp.HATSMain"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustPan|adjustResize" >
+
+            <!-- android:screenOrientation="landscape"> -->
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name="eg.csk.hatsmobileapp.HATSSettings"
+            android:label="@string/title_activity_hatssettings"
+            android:parentActivityName="eg.csk.hatsmobileapp.HATSMain"
+            android:windowSoftInputMode="adjustPan|adjustResize" >
+ <!-- to move the layout when keyboard appears -not working :) -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="eg.csk.hatsmobileapp.HATSMain" />
+        </activity>
+    </application>
+
+</manifest>

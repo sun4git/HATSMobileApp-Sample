@@ -1,0 +1,58 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_application_server_port"
+        android:inputType="textCapWords"
+        android:key="appserver_port"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_application_server_port" />
+ <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_hats_app"
+        android:inputType="textCapWords"
+        android:key="hatsapp_name"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_hats_app" />
+  <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_host_addr"
+        android:inputType="textCapWords"
+        android:key="host_addr"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_host_addr" />
+  <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_host_port"
+        android:inputType="textCapWords"
+        android:key="host_port"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_host_port" />
+  
+    <ListPreference
+        android:defaultValue="3"
+        android:entries="@array/pref_host_type_list_titles"
+        android:entryValues="@array/pref_host_type_list_values"
+        android:key="host_type"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_host_type" />
+    <!-- previously as per name, this option was to change orientation to potrait for hats mobile projects 
+    	 this default was false then as default is landcape. now changed to screen orientation lock/unlock so 
+    	 default value is true and when unchecked we'll activate sensor -->
+     <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="optimize_checkbox"
+        android:summary="@string/pref_description_optimize_for_mobile"
+        android:title="@string/pref_title_optimize_for_mobile" />
+ 
+
+</PreferenceScreen>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\SUNEEL\\AndroidDevelopment\\AndroidStudioProjects\\HATSMobileApp\\HATSMobile\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "E:\\SUNEEL\\AndroidDevelopment\\AndroidStudioProjects\\HATSMobileApp\\HATSMobile\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\SUNEEL\\AndroidDevelopment\\AndroidStudioProjects\\HATSMobileApp\\HATSMobile\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\slim_spinner_normal.9.png",
+        "source": "E:\\SUNEEL\\AndroidDevelopment\\AndroidStudioProjects\\HATSMobileApp\\HATSMobile\\src\\main\\res\\drawable-xhdpi\\slim_spinner_normal.9.png"
+    },
+    {
+        "merged": "E:\\SUNEEL\\AndroidDevelopment\\AndroidStudioProjects\\HATSMobileApp\\HATSMobile\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\slim_spinner_pressed.9.png",
+        "source": "E:\\SUNEEL\\AndroidDevelopment\\AndroidStudioProjects\\HATSMobileApp\\HATSMobile\\src\\main\\res\\drawable-xhdpi\\slim_spinner_pressed.9.png"
+    }
+]

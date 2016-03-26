@@ -1,0 +1,160 @@
+<resources>
+
+    <string name="title_activity_hatssettings">Settings</string>
+
+    <string name="pref_header_hats_server_settings">Application Settings</string>
+    <string name="pref_header_summary_hats_server_settings">Change application server and connection parameters</string>
+    <string name="pref_title_application_server_port">Application Server Addr&lt;:Port&gt;</string>
+    <string name="pref_default_application_server_port">hilive.demos.ibm.com:80</string>
+    <string name="pref_title_hats_app">HATS Application</string>
+    <string name="pref_default_hats_app">DemoApp</string>
+    <string name="pref_title_host_addr">Host Address</string>
+    <string name="pref_default_host_addr">iseriesd.demos.ibm.com</string>
+    <string name="pref_title_host_port">Host Port</string>
+    <string name="pref_default_host_port">23</string>
+    <string name="pref_title_host_type">Host Type</string>
+    <string name="pref_default_host_type">3</string>
+    <string name="pref_title_optimize_for_mobile">Lock screen orientation</string><!-- Optimize for mobile -->
+    <string name="pref_description_optimize_for_mobile">Sets terminal screen always in landscape view</string><!-- Enable this if the deployed HATS application was optimized for mobile layout -->
+    
+    <string-array name="pref_host_type_list_titles">
+        <item>3270</item>
+        <item>3270E</item>
+        <item>5250</item>
+    </string-array>
+    <string-array name="pref_host_type_list_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+       
+
+    <string name="pref_header_hats_color_settings">Color Remap</string>
+    <string name="pref_header_summary_hats_color_settings">Change screen and field colors</string>
+    <string name="pref_title_enable_color_remap">Enable Color Remap</string>
+    <string name="pref_description_enable_color_remap">Enable to use selected custom screen and field colors</string>
+    <string name="pref_title_screen_background">Screen Background</string>
+    <string name="pref_default_screen_background">0</string>
+    <string-array name="pref_screen_background_list_titles">
+        <item>Default(Black)</item>
+        <item>Blue</item>
+        <item>Brown</item>
+        <item>Cyan</item>
+        <item>Dark Blue</item>
+        <item>Dark Brown</item>
+        <item>Green</item>
+        <item>Grey</item>
+        <item>Orange</item>
+        <item>Pink</item>
+        <item>Red</item>
+        <item>White</item>
+        <item>Yellow</item>
+    </string-array>
+    <string-array name="pref_screen_background_list_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    
+    <string name="pref_category_field_background_color">Field Background Color</string>
+    <string name="pref_background_color">Background Color</string>
+    <string name="pref_foreground_color">Foreground Color</string>
+    
+    <string name="pref_title_green_field">Green Field</string>
+    <string name="pref_default_green_field_background">1</string>
+    
+    <string name="pref_title_white_field">White Field</string>
+    <string name="pref_default_white_field_background">1</string>
+    
+    <string name="pref_title_red_field">Red Field</string>
+    <string name="pref_default_red_field_background">1</string>
+    
+    <string name="pref_title_cyan_field">Cyan Field</string>
+    <string name="pref_default_cyan_field_background">1</string>
+    
+    <string name="pref_title_blue_field">Blue Field</string>
+    <string name="pref_default_blue_field_background">1</string>
+    
+    <string name="pref_title_pink_field">Pink Field</string>
+    <string name="pref_default_pink_field_background">1</string>
+    
+    <string name="pref_title_magenta_field">Magenta Field</string>
+    <string name="pref_default_magenta_field_background">1</string>
+    
+    <string name="pref_title_yellow_field">Yellow Field</string>
+    <string name="pref_default_yellow_field_background">1</string>
+    
+       
+    <string-array name="pref_field_background_list_titles">
+        <item>Default(Screen Background)</item>
+        <item>Blue</item>
+        <item>Brown</item>
+        <item>Cyan</item>
+        <item>Dark Blue</item>
+        <item>Dark Brown</item>
+        <item>Green</item>
+        <item>Grey</item>
+        <item>Orange</item>
+        <item>Pink</item>
+        <item>Red</item>
+        <item>White</item>
+        <item>Yellow</item>
+    </string-array>
+    <string-array name="pref_field_background_list_values">
+         <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    
+    <string-array name="pref_field_foreground_list_titles">
+        <item>Default</item>
+        <item>Blue</item>
+        <item>Brown</item>
+        <item>Cyan</item>
+        <item>Dark Blue</item>
+        <item>Dark Brown</item>
+        <item>Green</item>
+        <item>Grey</item>
+        <item>Orange</item>
+        <item>Pink</item>
+        <item>Red</item>
+        <item>White</item>
+        <item>Yellow</item>
+    </string-array>
+    <string-array name="pref_field_foreground_list_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    
+</resources>

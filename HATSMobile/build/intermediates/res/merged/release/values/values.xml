@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="host_keypad_items">
+        <item>PF1</item>
+        <item>PF2</item>
+        <item>PF3</item>
+        <item>PF4</item>
+        <item>PF5</item>
+        <item>PF6</item>
+        <item>PF7</item>
+        <item>PF8</item>
+        <item>PF9</item>
+        <item>PF10</item>
+        <item>PF11</item>
+        <item>PF12</item>
+        <item>PF13</item>
+        <item>PF14</item>
+        <item>PF15</item>
+        <item>PF16</item>
+        <item>PF17</item>
+        <item>PF18</item>
+        <item>PF19</item>
+        <item>PF20</item>
+        <item>PF21</item>
+        <item>PF22</item>
+        <item>PF23</item>
+        <item>PF24</item>
+        <item>ENTER</item>
+        <item>CLEAR</item>
+        <item>SYSREQ</item>
+        <item>ATTN</item>
+        <item>PAGEUP</item>
+        <item>PAGEDN</item>
+        <item>HELP</item>
+        <item>PRINT</item>
+        <item>PA1</item>
+        <item>PA2</item>
+        <item>PA3</item>
+        <item>AltView</item>
+        <item>Reset</item>
+        <item>Field exit</item>
+        <item>Field plus</item>
+        <item>Field minus</item>
+    </string-array>
+    <string-array name="pref_field_background_list_titles">
+        <item>Default(Screen Background)</item>
+        <item>Blue</item>
+        <item>Brown</item>
+        <item>Cyan</item>
+        <item>Dark Blue</item>
+        <item>Dark Brown</item>
+        <item>Green</item>
+        <item>Grey</item>
+        <item>Orange</item>
+        <item>Pink</item>
+        <item>Red</item>
+        <item>White</item>
+        <item>Yellow</item>
+    </string-array>
+    <string-array name="pref_field_background_list_values">
+         <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="pref_field_foreground_list_titles">
+        <item>Default</item>
+        <item>Blue</item>
+        <item>Brown</item>
+        <item>Cyan</item>
+        <item>Dark Blue</item>
+        <item>Dark Brown</item>
+        <item>Green</item>
+        <item>Grey</item>
+        <item>Orange</item>
+        <item>Pink</item>
+        <item>Red</item>
+        <item>White</item>
+        <item>Yellow</item>
+    </string-array>
+    <string-array name="pref_field_foreground_list_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="pref_host_type_list_titles">
+        <item>3270</item>
+        <item>3270E</item>
+        <item>5250</item>
+    </string-array>
+    <string-array name="pref_host_type_list_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="pref_screen_background_list_titles">
+        <item>Default(Black)</item>
+        <item>Blue</item>
+        <item>Brown</item>
+        <item>Cyan</item>
+        <item>Dark Blue</item>
+        <item>Dark Brown</item>
+        <item>Green</item>
+        <item>Grey</item>
+        <item>Orange</item>
+        <item>Pink</item>
+        <item>Red</item>
+        <item>White</item>
+        <item>Yellow</item>
+    </string-array>
+    <string-array name="pref_screen_background_list_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <color name="white">#ffffff</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="action_disconnect">Disconnect</string>
+    <string name="action_hide_keypad">Hide Keypad</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_show_keypad">Host Keypad</string>
+    <string name="app_error_text">An error occurred accessing the application. You can verify the SETTINGS or CLOSE the application</string>
+    <string name="app_error_title">Application Error</string>
+    <string name="app_name">HATS - Sample App</string>
+    <string name="browser_find_error_text">internal server error</string>
+    <string name="browser_find_restart_text">you may restart the application by clicking restart.</string>
+    <string name="close_app_text">Are you sure you want to close the application?</string>
+    <string name="close_app_title">Close App</string>
+    <string name="close_button_text">CLOSE</string>
+    <string name="connection_ended_text">Connection to the host system has ended</string>
+    <string name="disconnect_title">Disconnected</string>
+    <string name="error_code_text">Error code : </string>
+    <string name="hello_world">Hello world!</string>
+    <string name="keypad_button_text">SUBMIT</string>
+    <string name="loading">Loading</string>
+    <string name="network_error_2_text">Network error occurred and connection to the host system has ended</string>
+    <string name="network_error_text">Please verify your network settings and start the application again</string>
+    <string name="network_error_title">Network Error</string>
+    <string name="no_button_text">NO</string>
+    <string name="ok_button_text">OK</string>
+    <string name="pref_background_color">Background Color</string>
+    <string name="pref_category_field_background_color">Field Background Color</string>
+    <string name="pref_default_application_server_port">hilive.demos.ibm.com:80</string>
+    <string name="pref_default_blue_field_background">1</string>
+    <string name="pref_default_cyan_field_background">1</string>
+    <string name="pref_default_green_field_background">1</string>
+    <string name="pref_default_hats_app">DemoApp</string>
+    <string name="pref_default_host_addr">iseriesd.demos.ibm.com</string>
+    <string name="pref_default_host_port">23</string>
+    <string name="pref_default_host_type">3</string>
+    <string name="pref_default_magenta_field_background">1</string>
+    <string name="pref_default_pink_field_background">1</string>
+    <string name="pref_default_red_field_background">1</string>
+    <string name="pref_default_screen_background">0</string>
+    <string name="pref_default_white_field_background">1</string>
+    <string name="pref_default_yellow_field_background">1</string>
+    <string name="pref_description_enable_color_remap">Enable to use selected custom screen and field colors</string>
+    <string name="pref_description_optimize_for_mobile">Sets terminal screen always in landscape view</string>
+    <string name="pref_foreground_color">Foreground Color</string>
+    <string name="pref_header_hats_color_settings">Color Remap</string>
+    <string name="pref_header_hats_server_settings">Application Settings</string>
+    <string name="pref_header_summary_hats_color_settings">Change screen and field colors</string>
+    <string name="pref_header_summary_hats_server_settings">Change application server and connection parameters</string>
+    <string name="pref_title_application_server_port">Application Server Addr&lt;:Port></string>
+    <string name="pref_title_blue_field">Blue Field</string>
+    <string name="pref_title_cyan_field">Cyan Field</string>
+    <string name="pref_title_enable_color_remap">Enable Color Remap</string>
+    <string name="pref_title_green_field">Green Field</string>
+    <string name="pref_title_hats_app">HATS Application</string>
+    <string name="pref_title_host_addr">Host Address</string>
+    <string name="pref_title_host_port">Host Port</string>
+    <string name="pref_title_host_type">Host Type</string>
+    <string name="pref_title_magenta_field">Magenta Field</string>
+    <string name="pref_title_optimize_for_mobile">Lock screen orientation</string>
+    <string name="pref_title_pink_field">Pink Field</string>
+    <string name="pref_title_red_field">Red Field</string>
+    <string name="pref_title_screen_background">Screen Background</string>
+    <string name="pref_title_white_field">White Field</string>
+    <string name="pref_title_yellow_field">Yellow Field</string>
+    <string name="restart_app_text">Restarting the application with modified settings</string>
+    <string name="restart_button_text">RESTART</string>
+    <string name="restart_conn_text">Restarting the connection</string>
+    <string name="settings_button_text">SETTINGS</string>
+    <string name="start_app_text">Starting the application</string>
+    <string name="title_activity_hatssettings">Settings</string>
+    <string name="yes_button_text">YES</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="btnStyleBeige" parent="@android:style/Widget.Button">
+       <item name="android:textSize">15sp</item>
+       <!-- <item name="android:textStyle">bold</item> -->
+       <item name="android:textColor">#000000</item>
+       <item name="android:gravity">center</item>
+       <item name="android:shadowColor">#000000</item>
+       <item name="android:shadowDx">0</item>
+       <item name="android:shadowDy">0</item>
+       <item name="android:shadowRadius">0.6</item>
+       <item name="android:background">@drawable/custom_button</item>
+       <item name="android:padding">5dip</item>
+   </style>
+</resources>
